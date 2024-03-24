@@ -4,6 +4,7 @@ getgenv().configTable = {
     MinimumAmountItem = 250000,
     AutoMailbox = false,
     AutoMailboxClaim = false,
-    Blacklist = {"Old Boot", "Diamond Fishing Rod", "Diamond Shovel"}
+    Whitelist = {"Diamonds"},
+    Optimizer = true,
 }
 loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/b7d65db398aa182ef128c25329a24e7f/raw/gistfile1.txt"))()
