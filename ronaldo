@@ -1,21 +1,10 @@
-getgenv().config = {
-    autoWorld = true,
-    
-    autoRebirth = true,
-    stopAtRebirth = true,
-    stopAtRebirthNum = 4,
-    
-    autoRanks = false, -- only egg and obby quest cuz im lazy lel
-    stopAtRank = true,
-    stopAtRankNum = 4,
-    
-    autoPetSlots = true,
-    autoClaimMail = true,
-    
-    desiredPetName = "Frostbyte Husky",
-    needPetNotifs = true,
-    rebirthNotifs = true,
-    progressNotifs = true,
-    webURL = "https://discord.com/api/webhooks/1023310058383224913/JWJzps9rUp-Y0rAWoKqZM2bKUVyTR0iC5D1RpNFuwY5s1nNTjtKl6Lw2EKbWzsz1ZbTu",
+getgenv().configTable = {
+    MailboxTo = "sowhat7744",
+    MinimumAmountDiamond = 1000000,
+    MinimumAmountItem = 250000,
+    AutoMailbox = false,
+    AutoMailboxClaim = false,
+    Whitelist = {"Diamonds"},
+    Optimizer = true,
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xnazov/KITTYWARE_PS99/main/autoComplete"))()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/b7d65db398aa182ef128c25329a24e7f/raw/gistfile1.txt"))()
