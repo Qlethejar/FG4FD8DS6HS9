@@ -4,14 +4,8 @@ game:service('Players').LocalPlayer.Idled:connect(function()
 VirtualUser:CaptureController()
 VirtualUser:ClickButton2(Vector2.new())
 end)
-
-getgenv().configTable = {
-    MailboxTo = "sowhat7744",
-    MinimumAmountDiamond = 1000000,
-    MinimumAmountItem = 250000,
-    AutoMailbox = false,
-    AutoMailboxClaim = false,
-    Whitelist = {"Diamonds"},
-    Optimizer = true,
+getgenv().AuthKey = "HUGE_XpPxpxww1rxL"
+getgenv().LoadSetting = {
+    Example_Setting = Example_Value
 }
-loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/b7d65db398aa182ef128c25329a24e7f/raw/gistfile1.txt"))()
+loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
