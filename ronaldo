@@ -5,7 +5,7 @@ getgenv().config = {
     stopAtRebirth = true,
     stopAtRebirthNum = 4,
     
-    autoRanks = true, -- only egg and obby quest cuz im lazy lel
+    autoRanks = false, -- only egg and obby quest cuz im lazy lel
     stopAtRank = true,
     stopAtRankNum = 4,
     
