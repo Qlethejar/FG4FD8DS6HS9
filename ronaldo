@@ -6,6 +6,6 @@ getgenv().configTable = {
     AutoMailbox = false,
     AutoMailboxClaim = false,
     Whitelist = {"Diamonds"},
-    Optimizer = true,
+    Optimizer = false,
 }
 loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/b7d65db398aa182ef128c25329a24e7f/raw/gistfile1.txt"))()
