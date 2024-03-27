@@ -1,2 +1,17 @@
 repeat task.wait(1) until game:IsLoaded()
+_G.Key = "213673d0ffb84424b6c8c78204abb47e"
+getgenv().Config = {
+    ["AutoReplay"] = true,
+    ["AutoJoinMatch"] = true,
+    ["SelectMap"] = "Egg Island",
+    ["SelectMacro"] = "macroname",
+    ["AutoSkip"] = true,
+    ["DeleteMap"] = true,
+    ["PlayMacro"] = true,
+    ["AutoSave"] = true,
+    ["BoostFPS"] = true,
+    ["AutoClaimQuest"] = true,
+    ["WhiteScreen"] = true,
+    ["DelayJoin"] = 30,
+}
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))() 
