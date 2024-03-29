@@ -1,4 +1,7 @@
 task.wait(30)
+game:GetService("GuiService").ErrorMessageChanged:Connect(function()
+wait (10) game:GetService("TeleportService"):Teleport(game.PlaceId)
+end)
 getgenv().configTable = {
     MailboxTo = "sowhat7744",
     MinimumAmountDiamond = 1000000,
