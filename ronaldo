@@ -1,5 +1,5 @@
 repeat task.wait(2) until game:IsLoaded()
-_G.key = "input key"
+_G.key = "a787e7cd7eb74e819e25ff09a34c9210"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true,
