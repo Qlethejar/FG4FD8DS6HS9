@@ -1,30 +1,14 @@
-repeat task.wait(2) until game:IsLoaded()
-_G.key = "6ee01d439d914f5a91895a56f67d34ba"
-getgenv().Config = {
-    ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "Egg Island",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "Nousigi Hub/Macro/loisprite",
-    ["AutoSkip"] = true,
-    ["DeleteMap"] = true,
-    ["PlayMacro"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimEasterQuest"] = true,
-    ["AutoClaimEventsPass"] = true,
-    ["WhiteScreen"] = true,
-    ["DelayJoin"] = "20",
-    ["PlacingFailsafe"] = true,
-    ["ExchangeTier"] = "3",
-    ["AutoExchangeEgg"] = "true",
-    ["MailName"] = "JoinElsuClanPs99",
-    ["RequiredGem"] = 1000,
-    ["AutoMail"] = true,
-    ["WH_MatchComplete"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1023310058383224913/JWJzps9rUp-Y0rAWoKqZM2bKUVyTR0iC5D1RpNFuwY5s1nNTjtKl6Lw2EKbWzsz1ZbTu",
+task.wait(30)
+game:GetService("GuiService").ErrorMessageChanged:Connect(function()
+wait (90) game:GetService("TeleportService"):Teleport(game.PlaceId)
+end)
+getgenv().configTable = {
+    MailboxTo = "sowhat7744",
+    MinimumAmountDiamond = 1000000,
+    MinimumAmountItem = 250000,
+    AutoMailbox = false,
+    AutoMailboxClaim = false,
+    Whitelist = {"Diamonds"},
+    Optimizer = true,
 }
-loadstring(game:HttpGet("https://nousigi.com/loader.lua"))() 
+loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/b7d65db398aa182ef128c25329a24e7f/raw/gistfile1.txt"))()
