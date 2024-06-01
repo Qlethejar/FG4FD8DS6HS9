@@ -90,6 +90,6 @@ getgenv().Config = {
 	},
 	["AutoSkip"] = true,
 	["SelectWorld"] = "Windmill Village",
-	["JoinHighest"] = true
+	["JoinHighest"] = false
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))() 
