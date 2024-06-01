@@ -12,7 +12,6 @@ getgenv().Config = {
 		["Windmill Village"] = false
 	},
 	["WaitForJoiner"] = false,
-	["SelectMacro"] = "ice",
 	["JoinerList"] = {
 		[1] = "No joiner in the list"
 	},
